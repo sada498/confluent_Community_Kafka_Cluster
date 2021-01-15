@@ -17,6 +17,7 @@
     <Master Private IP> Master
     <Node1 Private Ip> Node1
     <Node2 Private Ip> Node2
+![alt](https://github.com/sada498/confluent_Community_Kafka_Cluster/blob/main/Img/adding%20hosts.JPG)
 ### 6. save and exit from all three servers
 ### 7. edit the Zookeeper config file on all three servers
     sudo vi /etc/kafka/zookeeper.properties
@@ -39,6 +40,7 @@
     on Master server 1, enter 1 
     On Node1 server 2, enter 2
     On node2 server 3, enter 3
+![alt](https://github.com/sada498/confluent_Community_Kafka_Cluster/blob/main/Img/ZookeeperId.JPG)
 
 > Note: if you have probleam with saving file in Vim use below command 
 
