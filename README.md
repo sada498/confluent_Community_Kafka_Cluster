@@ -34,7 +34,9 @@
     autopurge.purgeInterval=24
 ### 9. save and exit from all three servers
 ### 10. add Zookeeper ID for all servers
-     sudo vi /var/lib/zookeeper/myid   
+       sudo chmod o+w /var/lib/zookeeper
+       sudo mkdir -p /var/lib/zookeeper
+       sudo vi /var/lib/zookeeper/myid   
 > Note : After open that file just asigin Id.
 
     on Master server 1, enter 1 
